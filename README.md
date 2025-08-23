@@ -1,10 +1,10 @@
 # Weather vs. Race Outcomes in Formula 1 Analysis
 
-## 🏎️ Project Overview
+## Project Overview
 
 This project analyzes the relationship between weather conditions and race outcomes in Formula 1 from 2020-2024. We investigate how weather (rain vs. dry) impacts DNFs (Did Not Finish), crashes, and position changes during races.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - **Data Collection**: Gather F1 race results and weather data for 2020-2024 seasons
 - **Weather Analysis**: Categorize races by weather conditions (Rainy/Dry/Other)
@@ -12,7 +12,7 @@ This project analyzes the relationship between weather conditions and race outco
 - **Geospatial Visualization**: Create maps in QGIS showing race locations with weather and outcome data
 - **Statistical Insights**: Provide quantitative analysis of weather's impact on race outcomes
 
-## 📊 Data Sources
+## Data Sources
 
 ### Formula 1 Data
 - **Ergast Developer API**: http://ergast.com/mrd/ (Free, no API key required)
@@ -26,7 +26,7 @@ This project analyzes the relationship between weather conditions and race outco
 - **Ergast API**: Includes circuit coordinates
 - **Wikipedia**: Manual lookup for missing coordinates
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -57,7 +57,7 @@ pip install jupyter
    - Update README with your findings
    - Commit to GitHub
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 F1-Race-vs-Weather-Analysis/
@@ -81,7 +81,7 @@ F1-Race-vs-Weather-Analysis/
 └── sample_results.md                  # Expected analysis results
 ```
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Environment Setup
 ```bash
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 - Install Python integration (usually included)
 - Follow `qgis_guide.md` for detailed instructions
 
-## 📈 Expected Results
+## Expected Results
 
 ### Key Findings You'll Discover
 - **Weather Impact**: Rainy races typically have 2-3x more DNFs than dry races
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 - Box plots: Position changes vs. weather
 - QGIS maps: Circuit locations with weather and outcome data
 
-## 🎨 Customization Options
+## Customization Options
 
 ### Easy Enhancements
 - Add more weather variables (wind speed, humidity)
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 - Real-time data updates for new seasons
 - Interactive web dashboard
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 By completing this project, you'll gain experience in:
 - **API Integration**: Working with sports and weather APIs
@@ -139,18 +139,14 @@ By completing this project, you'll gain experience in:
 - **Geospatial Analysis**: QGIS mapping and spatial data
 - **Reproducible Research**: GitHub documentation and code organization
 
-## 🤝 Contributing
+## Contributing
 
 This project is designed for learning and portfolio development. Feel free to:
 - Fork and modify for your own analysis
 - Add new weather variables or analysis methods
 - Share your findings and visualizations
 
-## 📄 License
-
-MIT License - feel free to use this project for your portfolio and learning.
-
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 1. **API Rate Limits**: Use sleep() between requests
