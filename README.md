@@ -159,7 +159,3 @@ This project is designed for learning and portfolio development. Feel free to:
 - Ensure all dependencies are properly installed
 
 ---
-
-**Happy Racing! 🏁** 
-
-Complete this project in a weekend and add a professional data analysis project to your GitHub portfolio.
