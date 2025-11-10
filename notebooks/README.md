@@ -1,10 +1,10 @@
 # Jupyter Notebooks for F1 Weather Analysis
 
-## 📓 Available Notebooks
+## Available Notebooks
 
 This directory contains Jupyter notebooks for detailed analysis of the F1 weather data.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 1. **Install Jupyter**: `pip install jupyter`
@@ -20,7 +20,7 @@ cd F1-Race-vs-Weather-Analysis
 jupyter notebook
 ```
 
-## 📊 Notebook Workflow
+##  Notebook Workflow
 
 ### 1. Data Exploration
 - Load collected F1 and weather data
@@ -42,20 +42,20 @@ jupyter notebook
 - Calculate effect sizes
 - Generate insights and recommendations
 
-## 🔧 Custom Analysis
+##  Custom Analysis
 
 The notebooks are designed to be:
 - **Expandable**: Add your own analysis cells
 - **Reproducible**: Clear data flow and documentation
 - **Educational**: Learn data science best practices
 
-## 📁 Data Sources
+##  Data Sources
 
 - **F1 Data**: `../data/raw/f1_races_2020_2024.csv`
 - **Weather Data**: `../data/raw/f1_weather_data_2020_2024.csv`
 - **Results Data**: `../data/raw/f1_results_2020_2024.csv`
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 By working through these notebooks, you'll learn:
 - Data loading and exploration techniques
@@ -64,7 +64,7 @@ By working through these notebooks, you'll learn:
 - Data visualization best practices
 - Geospatial data preparation
 
-## 💡 Tips
+##  Tips
 
 1. **Run cells sequentially** to avoid dependency issues
 2. **Save your work** regularly
